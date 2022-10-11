@@ -1,0 +1,12 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #000;
+}
+
+:root{
+    --web-color: gold;
+}
