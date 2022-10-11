@@ -11,6 +11,24 @@ html{
     --web-color: gold;
 }
 
-header p{
-    
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.title img{
+    width: 35px;
+    height: 35px;
+}
+
+.title p{
+    color: var(--web-color);
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.title p span{
+    color: rgb(119, 176, 34);
 }
