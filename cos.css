@@ -23,20 +23,36 @@ html{
     padding: 5px 2px 2px 0px;
 }
 
+.title{
+    width: 50%;
+}
+
 .title img{
     width: 35px;
     height: 35px;
-    margin-left: 50px; 
+    margin-left: 50px;
 }
 
 .title p{
     color: var(--web-color);
     font-weight: bolder;
     font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navsec{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    width: 50%;
+    justify-content: flex-end;
+    justify-items: center;
 }
 
 .start-link{
     display: flex;
+    align-items: flex-start;
     height: 20px;
     border: 2px solid var(--web-color2);
     border-radius: 5px;
@@ -44,7 +60,7 @@ html{
     font-weight: bolder;
     color: #000;
     background-color: var(--web-color2);
-    padding: 5px;
+    padding: 10px 5px 10px 5px;
 }
 
 .start-link:hover{
@@ -71,10 +87,10 @@ html{
         margin-left: 30px;
     }
     .start-link{
-        padding: 2px;
+        padding: 7px 2px 7px 2px;
     }
     .menu-img{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
 }
