@@ -5,6 +5,7 @@
 
 html{
     background-color: #000;
+    color: #fff;
 }
 
 :root{
@@ -21,6 +22,7 @@ html{
     align-items: center;
     justify-content: space-between;
     padding: 5px 2px 2px 0px;
+    z-index: 5;
 }
 
 .title{
@@ -72,6 +74,13 @@ html{
 .menu-img{
     width: 40px;
     height: 40px;
+}
+
+.intro{
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    border: 1px solid #fff;
 }
 
 
