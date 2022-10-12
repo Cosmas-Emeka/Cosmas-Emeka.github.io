@@ -35,24 +35,6 @@ html{
     font-size: 1.5em;
 }
 
-@media (max-width: 481px) {
-    .title p{
-        font-size: 1em;
-    }
-    .title img{
-        width: 30px;
-        height: 30px;
-        margin-left: 30px;
-    }
-    .start-link{
-        padding: 2px;
-    }
-    .menu-img{
-        width: 20px;
-        height: 20px;
-    }
-}
-
 .start-link{
     display: flex;
     height: 20px;
@@ -74,4 +56,25 @@ html{
 .menu-img{
     width: 40px;
     height: 40px;
+}
+
+
+
+/* Media query section */
+@media (max-width: 481px) {
+    .title p{
+        font-size: 1em;
+    }
+    .title img{
+        width: 30px;
+        height: 30px;
+        margin-left: 30px;
+    }
+    .start-link{
+        padding: 2px;
+    }
+    .menu-img{
+        width: 20px;
+        height: 20px;
+    }
 }
