@@ -23,6 +23,7 @@ html{
     justify-content: space-between;
     padding: 5px 2px 2px 0px;
     z-index: 5;
+    background-color: #000;
 }
 
 .title{
@@ -77,11 +78,42 @@ html{
 }
 
 .intro{
-    z-index: -1;
     position: absolute;
-    top: 10px;
-    border: 1px solid #fff;
+    top: 100px;
+    width: 100%;
 }
+
+.intro h2, h4{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.intro-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.i-img{
+    width: 400px;
+    height: 300px;
+    border: 5px solid var(--web-color2);
+    border-radius: 10px 50px 10px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
