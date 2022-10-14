@@ -84,15 +84,6 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
-}
-
-.first{
-    width: 50%;
-}
-
-.second{
-    width: 50%;
 }
 
 .intro h2, h4{
