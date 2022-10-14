@@ -81,6 +81,18 @@ html{
     position: absolute;
     top: 100px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.first{
+    width: 50%;
+}
+
+.second{
+    width: 50%;
 }
 
 .intro h2, h4{
@@ -97,10 +109,9 @@ html{
 }
 
 .i-img{
-    width: 400px;
-    height: 300px;
-    border: 5px solid var(--web-color2);
-    border-radius: 10px 50px 10px 50px;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
 }
 
 
