@@ -11,6 +11,7 @@ html{
 :root{
     --web-color: rgb(255, 184, 3);
     --web-color2: rgb(119, 176, 34);
+    --web-color2-sha: rgb(83, 123, 24);
 }
 .navbar{
     position: fixed;
@@ -89,6 +90,20 @@ html{
     margin-right: 5vw;
 }
 
+.service{
+    margin: 40px 20px;
+}
+
+.service div {
+    padding: 5px;
+}
+
+.transfer{
+    width: 50%;
+    background-color: var(--web-color2);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px 10px var(--web-color2-sha);
+}
 
 
 
