@@ -32,8 +32,8 @@ html{
 }
 
 .title img{
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     margin-left: 23px;
 }
 
@@ -123,15 +123,15 @@ html{
         font-size: 1em;
     }
     .title img{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         margin-left: 13px;
     }
     .start-link{
         padding: 7px 2px 7px 2px;
     }
     .menu-img{
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
 }
