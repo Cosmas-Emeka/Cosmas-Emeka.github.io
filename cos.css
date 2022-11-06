@@ -73,7 +73,7 @@ html{
     transition: transform 0.4s ease-in-out;
 }
 
-.menu-img{
+.menu-img, .transfer img{
     width: 40px;
     height: 40px;
 }
