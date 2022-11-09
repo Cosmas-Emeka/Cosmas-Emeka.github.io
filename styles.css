@@ -13,23 +13,24 @@ body {
     background-color: var(--general-bg-color);
 }
 #navbar {
-    width: 100vw;
+    width: 98%;
     height: 6vh;
     background-color: var(--general-bg-color2);
     border: 5px solid #000;
     position: fixed;
     display: flex;
-    place-items: center;
+    align-items: center;
     justify-content: flex-end;
+    gap: 2.5rem;
     z-index: 10;
+    padding-right: 4rem;
 }
 
 #navbar a {
     text-decoration: none;
     font-weight: bolder;
     color: #000;
-    padding: 1rem;
-    margin-right: 2rem;
+    padding: 0.7rem;
 }
 
 #navbar a:hover {
