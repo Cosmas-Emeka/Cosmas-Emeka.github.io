@@ -22,10 +22,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 2.5rem;
+    gap: 2rem;
     z-index: 10;
-    padding-right: 4rem;
-    margin-bottom: 10rem;
+    padding-right: 2rem;
 }
 
 #navbar a {
@@ -75,6 +74,7 @@ body {
 #motto p {
     font-size: 1.2em;
     font-weight: 900;
+    margin-left: 0.5rem;
 }
 
 hr {
@@ -140,12 +140,11 @@ h2 {
     gap: 1.5rem;
 }
 
-.contact-wrapper div {
+.contact-wrapper div, form {
     max-width: 400px;
 }
 
 form {
-    max-width: 500px;
     box-shadow: inset 0px 0px 3px 3px rgb(182, 180, 180);
     padding: 1rem;
     border-radius: 10px;
@@ -178,3 +177,8 @@ button {
     border-radius: 8px;
     text-align: center;
 }
+
+@media (max-width: 500px) {
+    #navbar{
+        justify-content: center;
+    }
