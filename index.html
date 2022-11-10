@@ -8,19 +8,19 @@
     </head>
     <body>
         <nav id="navbar">
-            <a href="#motto">ABOUT</a>
-            <a href="#services">SERVICES</a>
-            <a href="#contact">CONTACT</a>
+            <a href="#container">ABOUT</a>
+            <a href="#second">SERVICES</a>
+            <a href="#third">CONTACT</a>
         </nav>
-        <div class="container">
+        <div id="container">
             <section id="welcome-section">
                 <div id="motto">
                     <img class="logo" src="imgs/web.png" alt=""/>
                     <div class="description">
-                        <p>COSMAS EMEKA<br> Front-end Web Developer</p>
+                        <h1>COSMAS EMEKA<br> Front-end Web Developer</h1>
                     </div>
                 </div>
-                <h1>Hello, I am <span class="name">EMEKA</span>.</h1>
+                <h3>Hello, I am <span class="name">EMEKA</span>.</h3>
                 <h4>Founder of CosTech, I am a tenaciously driven front-end web designer and developer from Nigeria. I build a large 
                     variety of fully functional, secured, accessible, responsive and sleek websites, in a nutshell my services are web 3.0 based. 
                 <h4>On this most auspicious of visits, permit me in lieu of the more commonplace sobriquet, to suggest the character of 
@@ -30,8 +30,9 @@
                 <h4><span class="name">Voila!</span> I love facing new challenges, watching and playing soccer, 
                     listening to music, playing chess and so much more.
                 </h4>
+                <a class="resume" href="">MY RESUME</a>
             </section>
-            <hr>
+            <hr id="second">
             <h2 id="services">SERVICES I PROVIDE</h2>
             <section id="services-section">
                 <div>
@@ -72,20 +73,37 @@
             </section>
             <h2>Below are some of my projects:</h2>
             <section id="projects">
-                <a href="https://cosmas-emeka.github.io/Survey-Page.github.io/">SURVEY FORM</a>
-                <a href="https://cosmas-emeka.github.io/Tech-Doc.github.io/">TECH-DOC PAGE</a>
-                <a href="https://cosmas-emeka.github.io/Tribute-Page.github.io/">TRIBUTE PAGE</a>
-                <a href="https://cosmas-emeka.github.io/Landing-Page.github.io/">PRODUCT LANDING PAGE</a>
+                <a href="https://cosmas-emeka.github.io/Survey-Page.github.io/">SURVEY <br> <br> FORM</a>
+                <a href="https://cosmas-emeka.github.io/Tech-Doc.github.io/">TECH-DOC <br> <br>  PAGE</a>
+                <a href="https://cosmas-emeka.github.io/Tribute-Page.github.io/">TRIBUTE <br> <br> PAGE</a>
+                <a href="https://cosmas-emeka.github.io/Landing-Page.github.io/">PRODUCT LANDING <br> <br> PAGE</a>
             </section>
-            <hr>
+            <hr id="third">
             <section id="contact">
-                <h2>LOREM IPSUM</h2>
+                <h2>CONTACT ME</h2>
                 <div class="contact-wrapper">
-                    <div>
+                    <div class="links">
                         <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus expedita asperiores magni doloremque atque culpa, 
                             odio quo dolores corrupti dolor? Dolores debitis molestiae obcaecati expedita deleniti excepturi voluptatibus 
                             aspernatur beatae.
                         </h4>
+                        <div class="profile-link-wrapper">
+                            <a id="profile-link" target="_blank" href="https://www.freecodecamp.org/Cosmasovic">
+                                <img class="profile-icon" src="imgs/fccc.png" alt="" />
+                            </a>
+                            <a id="profile-link" target="_blank" href="https://www.facebook.com/cosmas.emeka.75436">
+                                <img class="profile-icon only" src="imgs/fb2.png" alt="" />
+                            </a>
+                            <a id="profile-link" target="_blank" href="https://www.linkedin.com/in/chukwuemeka-onwuka-032a5724b">
+                                <img class="profile-icon" src="imgs/in2.png" alt="" />
+                            </a>
+                            <a id="profile-link" target="_blank" href="https://github.com/Cosmas-Emeka">
+                                <img class="profile-icon" src="imgs/github.png" alt="" />
+                            </a>
+                        <a id="profile-link" target="_blank" href="https://www.twitter.com/@Emeka05773933">
+                            <img class="profile-icon" src="imgs/twitter.png" alt="" />
+                        </a>
+                        </div>
                     </div>
                     <form>
                         <div>
@@ -98,12 +116,14 @@
                         </div>
                         <div><br>
                             <label>Write a message</label><br>
-                            <textarea required></textarea>
+                            <textarea required></textarea> <br> <br>
                         </div>
-                        <button type="submit" value="submit"></button>
+                        <button type="submit" value="submit">SEND REQUEST</button>
                     </form>
                 </div>
             </section>
+            <hr>
+            <h4 class="copyright">&#169 2022 <span class="footer-name">Cosmas Emeka.</span> All Rights Reserved</h4>
         </div>
     </body>
 </html>
