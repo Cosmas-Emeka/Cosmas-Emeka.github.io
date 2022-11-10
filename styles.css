@@ -263,7 +263,12 @@ button:hover {
     .profile-icon{
         width: 30px;
         height: 30px;
-        display: flex;
-        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-icon{
+        width: 20px;
+        height: 20px;
     }
 }
