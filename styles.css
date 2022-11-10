@@ -120,7 +120,7 @@ h2 {
 }
 
 #projects a {
-    max-width: 80px;
+    max-width: 70px;
     border-radius: 10px;
     text-decoration: none;
     color: #000;
@@ -181,4 +181,9 @@ button {
 @media (max-width: 500px) {
     #navbar{
         justify-content: center;
+        gap: 1rem;
     }
+    #navbar a{
+        font-size: smaller;
+    }
+}
