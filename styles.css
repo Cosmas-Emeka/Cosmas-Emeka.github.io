@@ -120,7 +120,7 @@ h2 {
 }
 
 #projects a {
-    max-width: 100px;
+    max-width: 80px;
     border-radius: 10px;
     text-decoration: none;
     color: #000;
@@ -140,8 +140,12 @@ h2 {
     gap: 1.5rem;
 }
 
-form {
+.contact-wrapper div {
     max-width: 400px;
+}
+
+form {
+    max-width: 500px;
     box-shadow: inset 0px 0px 3px 3px rgb(182, 180, 180);
     padding: 1rem;
     border-radius: 10px;
@@ -159,7 +163,6 @@ label {
 .name-box, .email-box {
     width: 200px;
     height: 20px;
-    box-shadow: 0px 0px 5px 5px rgb(182, 180, 180);
     border-radius: 8px;
     text-align: center;
 }
@@ -167,13 +170,11 @@ label {
 textarea {
     width: 200px;
     height: 200px;
-    box-shadow: 0px 0px 5px 5px rgb(182, 180, 180);
     border-radius: 8px;
     text-align: center;
 }
 
 button {
-    box-shadow: 0px 0px 5px 5px rgb(182, 180, 180);
     border-radius: 8px;
     text-align: center;
 }
