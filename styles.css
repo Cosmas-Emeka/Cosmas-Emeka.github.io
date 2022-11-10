@@ -277,4 +277,8 @@ button:hover {
         width: 20px;
         height: 20px;
     }
+    .photo {
+        width: 200px;
+        height: 400px;
+    }
 }
