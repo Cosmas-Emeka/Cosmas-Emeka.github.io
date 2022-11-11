@@ -11,14 +11,13 @@
 body {
     
     background-color: var(--general-bg-color);
-    font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #navbar {
     width: 98%;
     height: 6vh;
     background-color: var(--general-bg-color2);
-    border: 5px solid #000;
+    border: 2px solid #000;
     position: fixed;
     display: flex;
     align-items: center;
@@ -40,7 +39,7 @@ body {
     background-color: #daa502;
     transform: translateX(-5px);
     transition: transform 0.3s ease-in-out;
-    border: 2px solid #000;
+    border: 1px solid #000;
 }
 
 #container {
@@ -79,12 +78,17 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.photo-caption{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 .photo {
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 570px;
     border-radius: 10px;
-    display: block;
-    margin: 0 auto;
     box-shadow: 0px 0px 5px 5px rgb(58, 56, 56);
 }
 
@@ -110,7 +114,7 @@ hr {
     height: 10px;
     background-color: var(--general-bg-color2);
     margin: 3rem 0;
-    border: 4px solid #000;
+    border: 1px solid #000;
     border-radius: 5px;
 }
 
@@ -214,7 +218,6 @@ form {
 
 label {
     font-size: larger;
-    font-weight: 600;
 }
 
 .name-box, .email-box {
