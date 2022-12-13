@@ -69,7 +69,7 @@ body {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 50%;
-    border: 2px solid; 
+    border: 2px solid;
 }
 
 #motto h1 {
@@ -82,14 +82,22 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
+}
+
+.photo, .photo-caption div {
+    max-width: 400px;
 }
 
 .photo {
-    width: 400px;
-    height: 570px;
+    width: 300px;
+    height: 470px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px rgb(58, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
 }
 
 .resume {
@@ -136,6 +144,7 @@ h2 {
 
 #services-section div {
     max-width: 280px;
+    height: 250px;
     padding: 1.3rem;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px rgb(182, 180, 180);
@@ -162,6 +171,7 @@ h2 {
     padding: 2rem;
     font-weight: 700;
     text-align: center;
+    width: 100px;
 }
 
 #projects a:hover {
@@ -272,6 +282,9 @@ button:hover {
     .profile-icon{
         width: 30px;
         height: 30px;
+    }
+    #services-section div {
+        height: 200px;
     }
 }
 
